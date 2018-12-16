@@ -1,0 +1,147 @@
+h1 {
+  text-align: center;
+  color: #888;
+  font-size: 50px;
+  font-family: 'lemon', cursive;
+  }
+
+p {
+  font-size: 20px;
+  font-family: Helvetica;
+  line-height: 1.5;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: justify;
+}
+
+.list {
+  text-align: center;
+}
+
+a {
+  color: #888;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  }
+
+img {
+  height: 320px;
+  width: 320px;
+  }
+
+  .image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+  .container {
+      position: relative;
+  }
+
+  .fade {
+  position: relative;
+  width: 100%;
+}
+
+.overlaydoor {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #8BD9B2;
+}
+
+.overlaygemma {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #C6A9E4;
+}
+
+.overlayplant {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #F93E05;
+}
+
+.fade:hover .overlaydoor {
+  opacity: 1;
+}
+.fade:hover .overlaygemma {
+  opacity: 1;
+}
+
+.fade:hover .overlayplant {
+  opacity: 1;
+}
+.text {
+  color: #888;
+  font-family: 'lemon', cursive;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+#Door {
+  border: 40px solid #8BD9B2;
+  }
+
+#Gemma {
+  border: 40px solid #C6A9E4;
+  }
+
+#Plant {
+  border: 40px solid #F93E05;
+  transform: rotate(90deg);
+  }
+
+#Gemma2 {
+  border: 40px solid #C6A9E4;
+  border-radius: 100%;
+  float: right;
+  margin: 20px 20px 20px 40px;
+}
+
+form {
+  font-family: Helvetica;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+input[type=submit] {
+  font-family: Helvetica;
+font-size: 20px;
+background-color: #888;
+border: none;
+}
